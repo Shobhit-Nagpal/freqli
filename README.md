@@ -10,13 +10,19 @@ freqli is a command-line tool that analyzes command frequency in your shell hist
 
 ## Installation
 
-To install freqli, you can use the `go install` command:
+freqli can be installed through Homebrew:
+
+### Tap the repo
 
 ```sh
-go install github.com/Shobhit-Nagpal/freqli@latest
+brew tap Shobhit-Nagpal/freqli
 ```
 
-Make sure you have Go installed on your system. You can download and install it from [https://golang.org/dl/](https://golang.org/dl/).
+### Install freqli
+
+```sh
+brew install https://github.com/Shobhit-Nagpal/freqli
+```
 
 ## Usage
 
