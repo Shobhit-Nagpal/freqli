@@ -3,7 +3,7 @@ package analysis
 import (
 	"errors"
 	"fmt"
-	"freqli/src/shell"
+	"freqli/pkg/shell"
 	"sort"
 	"strings"
 )
