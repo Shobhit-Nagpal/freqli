@@ -58,9 +58,23 @@ changelog:
       - Merge pull request
       - Merge branch
 brews:
-    - github:
-          owner: Shobhit-Nagpal
-          name: homebrew-freqli
-      folder: Formula
-      homepage: https://github.com/Shobhit-Nagpal/freqli
-      description: Analyze shell history command frequency
+  -
+    name: freqli
+
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com
+
+
+    commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
+
+    homepage: https://github.com/Shobhit-Nagpal/freqli
+
+    description: Analyze shell history command frequency
+
+    folder: Formula
+
+    repository:
+      owner: Shobhit-Nagpal
+      name: homebrew-freqli
+      branch: main
