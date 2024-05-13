@@ -57,3 +57,10 @@ changelog:
       - 'README'
       - Merge pull request
       - Merge branch
+brews:
+    - github:
+          owner: Shobhit-Nagpal
+          name: homebrew-freqli
+      folder: Formula
+      homepage: https://github.com/Shobhit-Nagpal/freqli
+      description: Analyze shell history command frequency
