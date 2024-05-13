@@ -23,7 +23,7 @@ builds:
       - windows
       - darwin
     main: ./cmd/freqli/main.go
-    binary: main
+    binary: freqli
 
 archives:
   - format: tar.gz
