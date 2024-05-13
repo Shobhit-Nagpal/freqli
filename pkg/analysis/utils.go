@@ -3,7 +3,7 @@ package analysis
 import (
 	"errors"
 	"fmt"
-	"freqli/pkg/shell"
+	"github.com/Shobhit-Nagpal/freqli/pkg/shell"
 	"sort"
 	"strings"
 )

@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"freqli/pkg/analysis"
+	"github.com/Shobhit-Nagpal/freqli/pkg/analysis"
 )
 
 func main() {
