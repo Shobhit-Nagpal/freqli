@@ -72,7 +72,7 @@ brews:
 
     description: Analyze shell history command frequency
 
-    folder: Formula
+    directory: Formula
 
     repository:
       owner: Shobhit-Nagpal
