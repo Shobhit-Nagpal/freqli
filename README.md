@@ -10,15 +10,21 @@ freqli is a command-line tool that analyzes command frequency in your shell hist
 
 ## Installation
 
-freqli can be installed through Homebrew:
+### Install with Go
 
-### Tap the repo
+```sh
+go install github.com/Shobhit-Nagpal/freqli/cmd/freqli@latest
+```
+
+### Install with Homebrew
+
+#### Tap the repo
 
 ```sh
 brew tap Shobhit-Nagpal/freqli
 ```
 
-### Install freqli
+#### Install freqli
 
 ```sh
 brew install freqli
