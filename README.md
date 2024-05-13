@@ -21,7 +21,7 @@ brew tap Shobhit-Nagpal/freqli
 ### Install freqli
 
 ```sh
-brew install https://github.com/Shobhit-Nagpal/freqli
+brew install freqli
 ```
 
 ## Usage
