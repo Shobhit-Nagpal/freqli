@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"flag"
+	"freqli/src/analysis"
+)
 
 func main() {
-  fmt.Println("Hello world")
+  shell := flag.String("shell", "bash", "The shell that is being used by the user")
+  flag.Parse()
+
+  analysis.Initiate(*shell)
 }
